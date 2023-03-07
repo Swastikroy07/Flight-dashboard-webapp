@@ -46,8 +46,7 @@ elif user_option == "Analytics":
     # 
     date, frequency2 = db.daily_frequency()
 
-    # print(len(date))
-    # print(len(frequency2))
+
     fig = px.line(
         x=date,
         y=frequency2
